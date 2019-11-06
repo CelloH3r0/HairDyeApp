@@ -1,0 +1,31 @@
+﻿@{
+    Page.Title = "Title goes here";
+    //Layout = "Your Layout Page goes here";
+    var db = Database.Open("hair_dye");
+}
+
+    <div>
+        <html>
+        <body>
+            <h1>Small Bakery Products</h1>
+            <table>
+                <tr>
+                    <th>Id</th>
+                    <th>Product</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+                @foreach (var row in db.Query(selectQueryString))
+                {
+                    <tr>
+                        <td>@row.Id</td>
+                        <td>@row.Name</td>
+                        <td>@row.Description</td>
+                        <td align="right">@row.Price</td>
+                    </tr>
+
+                }
+            </table>
+        </body>
+    </html>
+    </div>
