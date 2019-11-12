@@ -24,228 +24,147 @@ namespace HairDyeApp
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// chkRed control.
+        /// Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkRed;
+        protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// chkOrange control.
+        /// chkLstColor control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkOrange;
+        protected global::System.Web.UI.WebControls.CheckBoxList chkLstColor;
 
         /// <summary>
-        /// chkYellow control.
+        /// colors control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkYellow;
+        protected global::System.Web.UI.WebControls.SqlDataSource colors;
 
         /// <summary>
-        /// chkGreen control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkGreen;
+        protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// chkBlue control.
+        /// chkLstPrice control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkBlue;
+        protected global::System.Web.UI.WebControls.CheckBoxList chkLstPrice;
 
         /// <summary>
-        /// chkPink control.
+        /// price control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkPink;
+        protected global::System.Web.UI.WebControls.SqlDataSource price;
 
         /// <summary>
-        /// chkOther control.
+        /// Label3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkOther;
+        protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// chk3oz control.
+        /// chkLstBrand control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chk3oz;
+        protected global::System.Web.UI.WebControls.CheckBoxList chkLstBrand;
 
         /// <summary>
-        /// chk4oz control.
+        /// brand control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chk4oz;
+        protected global::System.Web.UI.WebControls.SqlDataSource brand;
 
         /// <summary>
-        /// chk5oz control.
+        /// Label4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chk5oz;
+        protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// chk6oz control.
+        /// chkLstSize control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chk6oz;
+        protected global::System.Web.UI.WebControls.CheckBoxList chkLstSize;
 
         /// <summary>
-        /// chkArctic control.
+        /// size control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkArctic;
+        protected global::System.Web.UI.WebControls.SqlDataSource size;
 
         /// <summary>
-        /// chkManic control.
+        /// Label5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkManic;
+        protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
-        /// chkPunky control.
+        /// rdoNGlow control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkPunky;
+        protected global::System.Web.UI.WebControls.RadioButton rdoNGlow;
 
         /// <summary>
-        /// chkLunar control.
+        /// rdoGlow control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkLunar;
+        protected global::System.Web.UI.WebControls.RadioButton rdoGlow;
 
         /// <summary>
-        /// chkRaw control.
+        /// lblDisplay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkRaw;
-
-        /// <summary>
-        /// chkSpecial control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkSpecial;
-
-        /// <summary>
-        /// chkGDY control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkGDY;
-
-        /// <summary>
-        /// chk7 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chk7;
-
-        /// <summary>
-        /// chk11 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chk11;
-
-        /// <summary>
-        /// chk13 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chk13;
-
-        /// <summary>
-        /// chk16 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chk16;
-
-        /// <summary>
-        /// chk17 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chk17;
-
-        /// <summary>
-        /// chk18 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chk18;
-
-        /// <summary>
-        /// Button2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.Label lblDisplay;
     }
 }
